@@ -7,3 +7,6 @@ C:\Users\Ben\documents\visual studio 2012\Projects\WindowsFormsApplication1\Wind
 C:\Users\Ben\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 C:\Users\Ben\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Ben\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ben\Documents\Visual Studio 2012\Projects\QuanLyBanAn\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Ben\Documents\Visual Studio 2012\Projects\QuanLyBanAn\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Ben\Documents\Visual Studio 2012\Projects\QuanLyBanAn\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

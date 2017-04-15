@@ -129,7 +129,7 @@ namespace WindowsFormsApplication1
             dr = cmd.ExecuteReader();
             dt = new DataTable();
             dt.Load(dr);
-            cmd.CommandText = "delete from Sodobandan where TenBan='" + comboBox1.SelectedValue + "'";
+            cmd.CommandText = "Update Sodobandan set SoLuong='"+soluong.Text+"', DonGia='"+dongia.Text+"' where TenBan='" + comboBox1.SelectedValue + "'";
             int i = cmd.ExecuteNonQuery();
             if (i > 0) MessageBox.Show("Thanh Cong", "Thong Bao");
             else
@@ -143,6 +143,15 @@ namespace WindowsFormsApplication1
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int dong = e.RowIndex;
+            soluong.Text = dataGridView1.Rows[dong].Cells[2].Value.ToString();
+            dongia.Text = dataGridView1.Rows[dong].Cells[3].Value.ToString();
+            comboBox1.Text = dataGridView1.Rows[dong].Cells[0].Value.ToString();
+            comboBox2.Text = dataGridView1.Rows[dong].Cells[1].Value.ToString();
         }
     }
 }
